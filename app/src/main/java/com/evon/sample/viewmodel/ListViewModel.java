@@ -1,4 +1,4 @@
-package com.evon.sample.view_model;
+package com.evon.sample.viewmodel;
 
 import android.app.Application;
 import android.arch.lifecycle.AndroidViewModel;
@@ -11,7 +11,7 @@ import java.util.List;
 
 
 /**
- * The type List view model.
+ * A view model class that fetch the items and return back to the callable activity
  */
 public class ListViewModel extends AndroidViewModel {
 

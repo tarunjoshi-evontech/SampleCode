@@ -1,4 +1,4 @@
-package com.evon.sample.view_model;
+package com.evon.sample.viewmodel;
 
 import android.app.Application;
 import android.arch.lifecycle.AndroidViewModel;
@@ -9,7 +9,7 @@ import com.evon.sample.roomdatabase.entity.Model;
 
 
 /**
- * The type Add view model.
+ * ViewModel class that provides the functionality to add the item in db
  */
 public class AddViewModel extends AndroidViewModel {
 

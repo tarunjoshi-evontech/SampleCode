@@ -15,14 +15,14 @@ import android.view.View;
 
 import com.evon.sample.R;
 import com.evon.sample.roomdatabase.entity.Model;
-import com.evon.sample.view_model.ListViewModel;
+import com.evon.sample.viewmodel.ListViewModel;
 import com.evon.sample.adapters.RecyclerViewAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * This activity is used to display data from Room Database into list-view.
+ * This activity is used to display data from local db into list-view.
  */
 public class MainActivity extends AppCompatActivity  {
 

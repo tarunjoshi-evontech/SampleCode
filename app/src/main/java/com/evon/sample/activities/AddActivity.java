@@ -11,11 +11,11 @@ import android.view.View;
 import android.widget.EditText;
 
 import com.evon.sample.R;
-import com.evon.sample.view_model.AddViewModel;
+import com.evon.sample.viewmodel.AddViewModel;
 import com.evon.sample.roomdatabase.entity.Model;
 
 /**
- * This activity is used to add data into room.
+ * This activity is used to add data into sql db using room.
  */
 public class AddActivity extends AppCompatActivity {
 

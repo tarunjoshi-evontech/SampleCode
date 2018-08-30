@@ -13,7 +13,7 @@ import java.util.List;
 import static android.arch.persistence.room.OnConflictStrategy.REPLACE;
 
 /**
- * The interface Model d.
+ * The dao interface for {@link Model} entity
  */
 @Dao
 public interface ModelDao {
