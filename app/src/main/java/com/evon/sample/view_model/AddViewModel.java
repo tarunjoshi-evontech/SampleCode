@@ -4,8 +4,8 @@ import android.app.Application;
 import android.arch.lifecycle.AndroidViewModel;
 import android.os.AsyncTask;
 
-import com.evon.sample.room_database.dao.AppDatabase;
-import com.evon.sample.room_database.entity.Model;
+import com.evon.sample.roomdatabase.AppDatabase;
+import com.evon.sample.roomdatabase.entity.Model;
 
 
 /**

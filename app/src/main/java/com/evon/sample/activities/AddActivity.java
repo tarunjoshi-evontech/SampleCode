@@ -12,10 +12,10 @@ import android.widget.EditText;
 
 import com.evon.sample.R;
 import com.evon.sample.view_model.AddViewModel;
-import com.evon.sample.room_database.entity.Model;
+import com.evon.sample.roomdatabase.entity.Model;
 
 /**
- * The type Add activity.
+ * This activity is used to add data into room.
  */
 public class AddActivity extends AppCompatActivity {
 

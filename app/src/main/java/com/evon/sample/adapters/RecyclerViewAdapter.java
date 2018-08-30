@@ -7,12 +7,12 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.evon.sample.R;
-import com.evon.sample.room_database.entity.Model;
+import com.evon.sample.roomdatabase.entity.Model;
 
 import java.util.List;
 
 /**
- * The type Recycler view adapter.
+ * Recycler view adapter.
  */
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.RecyclerViewHolder> {
 

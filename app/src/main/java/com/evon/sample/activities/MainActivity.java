@@ -14,7 +14,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 
 import com.evon.sample.R;
-import com.evon.sample.room_database.entity.Model;
+import com.evon.sample.roomdatabase.entity.Model;
 import com.evon.sample.view_model.ListViewModel;
 import com.evon.sample.adapters.RecyclerViewAdapter;
 
@@ -22,7 +22,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * The type Main activity.
+ * This activity is used to display data from Room Database into list-view.
  */
 public class MainActivity extends AppCompatActivity  {
 

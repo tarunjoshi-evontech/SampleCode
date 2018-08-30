@@ -1,15 +1,15 @@
-package com.evon.sample.room_database.dao;
+package com.evon.sample.roomdatabase;
 
 import android.arch.persistence.room.Database;
 import android.arch.persistence.room.Room;
 import android.arch.persistence.room.RoomDatabase;
 import android.content.Context;
 
-import com.evon.sample.room_database.entity.ModelD;
-import com.evon.sample.room_database.entity.Model;
+import com.evon.sample.roomdatabase.dao.ModelDao;
+import com.evon.sample.roomdatabase.entity.Model;
 
 /**
- * The type App database.
+ * The Database class.
  */
 @Database(entities = {Model.class}, version = 1)
 public abstract class AppDatabase extends RoomDatabase {
@@ -43,6 +43,6 @@ public abstract class AppDatabase extends RoomDatabase {
      *
      * @return the model d
      */
-    public abstract ModelD itemAndPersonModel();
+    public abstract ModelDao itemAndPersonModel();
 
 }
