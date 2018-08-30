@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LiveDataViewModel</string>
+    <string name="title_activity_main">Items List</string>
+    <string name="title_activity_add">Add Item</string>
+    <string name="item_name">Item name</string>
+    <string name="item_detail">Item detail</string>
+    <string name="missing_fields">Missing fields</string>
+</resources>
